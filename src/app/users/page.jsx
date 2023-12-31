@@ -7,7 +7,7 @@ import { useRouter } from 'next/navigation'
 import Searchbar from '@/components/SearchBar';
 
 
-const page = ({ searchParams }) => {
+const Page = ({ searchParams }) => {
     // console.log(searchParams);
     const router = useRouter();
     const [users, setUsers] = useState([]);
@@ -72,4 +72,4 @@ const page = ({ searchParams }) => {
     )
 }
 
-export default page
+export default Page

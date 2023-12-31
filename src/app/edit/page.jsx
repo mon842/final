@@ -6,7 +6,7 @@ import React, { useEffect, useState } from 'react'
 import axios from 'axios'
 import { toast } from 'react-hot-toast'
 
-const page = ({ searchParams }) => {
+const Page = ({ searchParams }) => {
     const user = searchParams;
     const router = useRouter();
     const [gender, setGender] = useState(user.gender);
@@ -261,4 +261,4 @@ const page = ({ searchParams }) => {
     )
 }
 
-export default page
+export default Page

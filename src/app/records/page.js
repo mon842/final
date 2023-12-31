@@ -4,7 +4,7 @@ import React, { useEffect, useState } from 'react'
 import axios from 'axios';
 import Card from '@/components/Card'
 
-const page = () => {
+const Page = () => {
     
     const [posts, setPosts] = useState([]);
     useEffect(() => {
@@ -40,4 +40,4 @@ const page = () => {
     )
 }
 
-export default page
+export default Page
