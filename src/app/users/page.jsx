@@ -38,7 +38,7 @@ const Page = ({ searchParams }) => {
 
     console.log(search);
     return (
-        <div className='bg-[#071e34] h-screen'>
+        <div className='bg-[#071e34] h-full'>
             <Nav />
 
             <div className='flex justify-center items-center'>
