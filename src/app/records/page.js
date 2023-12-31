@@ -19,7 +19,7 @@ const Page = () => {
             console.log("error fetching posts", error);
         }
     };
-    // console.log(posts);
+    console.log(posts);
 
     return (
         <div className='bg-[#071e34] h-screen'>
