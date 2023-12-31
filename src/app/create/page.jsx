@@ -46,7 +46,7 @@ const Create = () => {
             <Nav />
             <div className='flex justify-center items-center mt-20 '>
                 <div>
-                    <textarea className='block p-2 bg-slate-400' cols="30" rows="10" value={content} onChange={(e) => { setContent(e.target.value) }} placeholder='Typing record..'></textarea>
+                    <textarea className='block p-2 bg-slate-500 text-white' cols="30" rows="10" value={content} onChange={(e) => { setContent(e.target.value) }} placeholder='Typing record..'></textarea>
                     <button onClick={submit} className="w-full mt-3 bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-full">
                         create
                     </button>

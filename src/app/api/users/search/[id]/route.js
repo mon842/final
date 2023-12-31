@@ -10,7 +10,7 @@ export async function GET(request,response) {
     const i = request.url.lastIndexOf('/');
     const query = request.url.substring(i + 1);
 
-    console.log(query);
+    // console.log(query);
 
     try {
         const users = await User.find({
