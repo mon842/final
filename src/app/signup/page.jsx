@@ -79,7 +79,7 @@ const SignupPage = () => {
       router.push('/login');
 
 
-    } catch (error: any) {
+    } catch (error) {
       // console.log(error);
       toast.error(error.message);
     }
