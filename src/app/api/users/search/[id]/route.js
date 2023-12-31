@@ -3,6 +3,7 @@ import User from '../../../../../models/userModel';
 import { NextRequest, NextResponse } from 'next/server';
 
 connect();
+export const dynamic = 'force-dynamic';
 export async function GET(request,response) {
     console.log(request.url);
     const i = request.url.lastIndexOf('/');

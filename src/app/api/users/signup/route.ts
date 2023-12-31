@@ -5,7 +5,7 @@ import bcryptjs from 'bcryptjs';
 import { sendEmail } from '@/helper/mailer';
 
 connect();
-
+export const dynamic = 'force-dynamic';
 export async function POST(request: NextRequest){
     try {
         const reqBody = await request.json()

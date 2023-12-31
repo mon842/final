@@ -22,7 +22,7 @@ const Page = () => {
     console.log(posts);
 
     return (
-        <div className='bg-[#071e34] h-screen'>
+        <div className='bg-[#071e34] h-full'>
             <Nav />
             
             {posts.posts===null ? 

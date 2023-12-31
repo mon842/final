@@ -3,7 +3,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import Post from '@/models/postModel';
 
 connect();
-
+export const dynamic = 'force-dynamic';
 export async function POST(request,response) {
     try {
         const reqBody = await request.json()

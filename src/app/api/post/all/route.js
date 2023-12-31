@@ -6,7 +6,7 @@ import Post from '@/models/postModel';
 import User from '@/models/userModel';
 
 connect();
-
+export const dynamic = 'force-dynamic';
 export async function GET(request,response) {
     try {
         const posts = await Post.find().populate({path: "user", model: User}).sort({ createdAt: -1 });

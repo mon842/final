@@ -5,7 +5,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import User from '@/models/userModel';
 
 connect();
-
+export const dynamic = 'force-dynamic';
 export async function GET(request,response) {
     try {
         console.log(request.url);

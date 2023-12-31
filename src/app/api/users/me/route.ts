@@ -5,7 +5,7 @@ import User from '@/models/userModel'
 import { connect } from "@/dbConfig/dbConfig";
 
 connect();
-
+export const dynamic = 'force-dynamic';
 export async function GET(request: NextRequest){
     try {
         const userID = await getDataFromToken(request);
